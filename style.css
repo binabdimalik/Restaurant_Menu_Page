@@ -28,6 +28,15 @@ h2::after{
     width: 100%;
     height: 3px;
     background-color: rgba(0,0,0,0.507);
+    margin-top: 20px;
+}
+h2::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(0,0,0,0.507);
+    margin-bottom: 20px;
 }
 h2{
     ont-size: 4rem;
